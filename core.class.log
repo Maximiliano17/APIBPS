@@ -1,0 +1,544 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB08B247D078051A6729B',
+    participant: undefined
+  },
+  messageTimestamp: 1722878934,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5491168035831'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fed162b8-3dee-4f2d-8e51-f0c8dc188b47',
+  keyword: 'key_9bf22aa4-b17a-4888-9548-f48b6a675b02',
+  answer: '👋 ¡Hola! Bienvenido a la peluquería de Sandra ✂️',
+  options: {
+    media: 'https://github.com/Maximiliano17/BotPS/blob/master/assets/sandraPB.jpeg?raw=true',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'abbad656e6fe3c7d0a373ad01e3f31b0'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_364abc81-e069-4767-b2e2-1cee699efc4c',
+  keyword: 'ans_fed162b8-3dee-4f2d-8e51-f0c8dc188b47',
+  answer: '¿En qué puedo ayudarte hoy?\n' +
+    '\n' +
+    'Responde con el mensaje en negrita: \n' +
+    '\n' +
+    '*Catálogo* - Ver catálogo ✨\n' +
+    '*Turno* - Pedir un turno 🗓️\n' +
+    '*Baja* - Dar de baja mi turno ❌\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd5c4913e165aa294638b1386622453bd'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03143C225487F9369F2',
+    participant: undefined
+  },
+  messageTimestamp: 1722878949,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'turno',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'turno',
+  from: '5491168035831'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7237fd9d-f6ec-4a03-89aa-1028083c5fac',
+  keyword: 'key_1406784c-33fc-4c56-a5da-1188a39d00e9',
+  answer: '💬 Un momento por favor, estoy consultando los días de la semana disponibles...',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'cc7342401718aeac9f1acf288ec8e6e3'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d21af12e-9fff-4267-bd74-43e0b7b96bc7',
+  keyword: 'ans_7237fd9d-f6ec-4a03-89aa-1028083c5fac',
+  answer: '📅 *Días disponibles para turno:*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5915caf28471d10e70f22125433622f4'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_33a7a698-fd21-48cb-b2dd-a7834ab95007',
+  keyword: 'ans_d21af12e-9fff-4267-bd74-43e0b7b96bc7',
+  answer: '*¿Qué día deseas agendar?* ❓',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e4e0f562526679d3db071639346652a0'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0BFE6373BB441D63706',
+    participant: undefined
+  },
+  messageTimestamp: 1722878969,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'martes',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'martes',
+  from: '5491168035831'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_70fc0066-b557-4754-848a-159fb0025203',
+  keyword: 'ans_33a7a698-fd21-48cb-b2dd-a7834ab95007',
+  answer: '*Por favor, ingresa el número del turno que deseas seleccionar:*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4806730ffb094026ff62256ab21a1cce'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F955A2172EB6AAFC46',
+    participant: undefined
+  },
+  messageTimestamp: 1722878984,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5491168035831'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0a57129a-406d-4056-9372-98df41fc1fd8',
+  keyword: 'ans_70fc0066-b557-4754-848a-159fb0025203',
+  answer: 'Por favor, ingresa el nombre de la persona para quien deseas reservar este turno:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '58a25b8e86aa2fd00e995515c6c8bf0e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03A4A860EB267531A94',
+    participant: undefined
+  },
+  messageTimestamp: 1722878995,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Sandra dibaggio',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Sandra dibaggio',
+  from: '5491168035831'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0121D09164D231F250A',
+    participant: undefined
+  },
+  messageTimestamp: 1722879020,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola buenas',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola buenas',
+  from: '5491168035831'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fed162b8-3dee-4f2d-8e51-f0c8dc188b47',
+  keyword: 'key_9bf22aa4-b17a-4888-9548-f48b6a675b02',
+  answer: '👋 ¡Hola! Bienvenido a la peluquería de Sandra ✂️',
+  options: {
+    media: 'https://github.com/Maximiliano17/BotPS/blob/master/assets/sandraPB.jpeg?raw=true',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'abbad656e6fe3c7d0a373ad01e3f31b0'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_364abc81-e069-4767-b2e2-1cee699efc4c',
+  keyword: 'ans_fed162b8-3dee-4f2d-8e51-f0c8dc188b47',
+  answer: '¿En qué puedo ayudarte hoy?\n' +
+    '\n' +
+    'Responde con el mensaje en negrita: \n' +
+    '\n' +
+    '*Catálogo* - Ver catálogo ✨\n' +
+    '*Turno* - Pedir un turno 🗓️\n' +
+    '*Baja* - Dar de baja mi turno ❌\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd5c4913e165aa294638b1386622453bd'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB06D1FDEBCD58692045A',
+    participant: undefined
+  },
+  messageTimestamp: 1722879027,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'baja',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'baja',
+  from: '5491168035831'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6e48bb52-e848-4bf8-91bf-364bd9b8b304',
+  keyword: 'key_cbdd30af-b940-4880-b5bb-fb208e52c1b3',
+  answer: 'Para cancelar tu turno, por favor proporciona la siguiente información en un solo mensaje:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '86576e26b2914f53f133f00827c297a7'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0ec625bb-c713-458b-b1c2-b5411da64c1b',
+  keyword: 'ans_6e48bb52-e848-4bf8-91bf-364bd9b8b304',
+  answer: '🔹 *Nombre completo*\n' +
+    '🔹 *Fecha del turno*\n' +
+    '🔹 *Horario del turno*\n' +
+    '\n' +
+    'Ejemplo: Juan Pérez, 24/07/2023, 15:00 - 15:30',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'cb4818f4aeb9ab73bffad5718434b6d7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A76F462C12077E6D14',
+    participant: undefined
+  },
+  messageTimestamp: 1722879040,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'turno',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'turno',
+  from: '5491168035831'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7237fd9d-f6ec-4a03-89aa-1028083c5fac',
+  keyword: 'key_1406784c-33fc-4c56-a5da-1188a39d00e9',
+  answer: '💬 Un momento por favor, estoy consultando los días de la semana disponibles...',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'cc7342401718aeac9f1acf288ec8e6e3'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d21af12e-9fff-4267-bd74-43e0b7b96bc7',
+  keyword: 'ans_7237fd9d-f6ec-4a03-89aa-1028083c5fac',
+  answer: '📅 *Días disponibles para turno:*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5915caf28471d10e70f22125433622f4'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_33a7a698-fd21-48cb-b2dd-a7834ab95007',
+  keyword: 'ans_d21af12e-9fff-4267-bd74-43e0b7b96bc7',
+  answer: '*¿Qué día deseas agendar?* ❓',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e4e0f562526679d3db071639346652a0'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B561C759344CF19EE5',
+    participant: undefined
+  },
+  messageTimestamp: 1722879060,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'martes',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'martes',
+  from: '5491168035831'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_70fc0066-b557-4754-848a-159fb0025203',
+  keyword: 'ans_33a7a698-fd21-48cb-b2dd-a7834ab95007',
+  answer: '*Por favor, ingresa el número del turno que deseas seleccionar:*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4806730ffb094026ff62256ab21a1cce'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491168035831@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02C2E6E2FF7CA492647',
+    participant: undefined
+  },
+  messageTimestamp: 1722879201,
+  pushName: 'Nuñez Alejandro',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5491168035831'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0a57129a-406d-4056-9372-98df41fc1fd8',
+  keyword: 'ans_70fc0066-b557-4754-848a-159fb0025203',
+  answer: 'Por favor, ingresa el nombre de la persona para quien deseas reservar este turno:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '58a25b8e86aa2fd00e995515c6c8bf0e'
+}
