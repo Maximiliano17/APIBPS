@@ -1,11 +1,12 @@
 import express from "express";
-import { getTurnsByWeek, getTurnsByDay, getTurnById, putTurnById } from "../controllers/turns.controller.js";
-const routes = express.Router();
+import { getDays, getDayByName, getDayById, updateTurn } from '../controllers/turns.controllers.js';
 
-routes
-.get("/", getTurnsByWeek)
-.get("/:day", getTurnsByDay)
-.get("/:day/:id", getTurnById)
-.put("/:dia/:id", putTurnById);
+const routes = express.Router(); 
 
-export default routes;
+routes  
+.get("/days", getDays)   
+.get('/days/:name', getDayByName)
+.get('/days/:day/:id', getDayById)
+.put('/turns', updateTurn);
+
+export default routes; 
